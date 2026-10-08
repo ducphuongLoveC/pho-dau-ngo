@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "day": 2,
+  "phase": "prep",
+  "cash": 108000,
+  "stock": {
+    "noodle": 14,
+    "tai": 8,
+    "chin": 6,
+    "broth": 0,
+    "scallion": 7,
+    "onion": 7,
+    "herbs": 7,
+    "chili": 0,
+    "lime": 0,
+    "sauce": 0,
+    "sting": 0,
+    "coca": 1,
+    "redbull": 1
+  },
+  "stockLots": [
+    {
+      "ingredient": "noodle",
+      "quantity": 14,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "tai",
+      "quantity": 8,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "chin",
+      "quantity": 6,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "scallion",
+      "quantity": 7,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "onion",
+      "quantity": 7,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "herbs",
+      "quantity": 7,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "coca",
+      "quantity": 1,
+      "expiresOn": 31
+    },
+    {
+      "ingredient": "redbull",
+      "quantity": 1,
+      "expiresOn": 31
+    }
+  ],
+  "hotBroth": 0,
+  "brothBatch": null,
+  "orders": [],
+  "bowls": [
+    {
+      "id": 0,
+      "ingredients": {
+        "noodle": 0,
+        "tai": 0,
+        "chin": 0,
+        "broth": 0,
+        "scallion": 0,
+        "onion": 0,
+        "herbs": 0,
+        "chili": 0,
+        "lime": 0,
+        "sauce": 0,
+        "sting": 0,
+        "coca": 0,
+        "redbull": 0
+      },
+      "cookState": "empty",
+      "cookSeconds": 0,
+      "cookScore": 0,
+      "cost": 0
+    }
+  ],
+  "bowlReady": false,
+  "selectedOrderId": null,
+  "selectedBowl": 0,
+  "elapsed": 0,
+  "closingElapsed": 0,
+  "spawned": 0,
+  "servedTotal": 2,
+  "reputation": 5,
+  "upgrades": {
+    "menu": false,
+    "basket": false,
+    "pot": false,
+    "stove": false,
+    "tea": false
+  },
+  "paused": false,
+  "recoveryUsed": false,
+  "ledger": {
+    "openingCash": 108000,
+    "openingStock": 93000,
+    "purchases": 0,
+    "revenue": 0,
+    "drinkRevenue": 0,
+    "drinkCogs": 0,
+    "drinksSold": 0,
+    "tips": 0,
+    "cogs": 0,
+    "waste": 0,
+    "opex": 0,
+    "upgrades": 0,
+    "support": 0,
+    "served": 0,
+    "failed": 0,
+    "scoreTotal": 0,
+    "closingCash": null,
+    "closingStock": null
+  },
+  "lastResult": null,
+  "notice": "Ngày 2: dự kiến 10 khách. Kiểm tra kho trước khi nhập thêm."
+}

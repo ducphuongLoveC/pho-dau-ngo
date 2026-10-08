@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "day": 1,
+  "phase": "open",
+  "cash": 138000,
+  "stock": {
+    "noodle": 14,
+    "tai": 8,
+    "chin": 6,
+    "broth": 0,
+    "scallion": 7,
+    "onion": 7,
+    "herbs": 7,
+    "chili": 0,
+    "lime": 0,
+    "sauce": 0,
+    "sting": 0,
+    "coca": 1,
+    "redbull": 1
+  },
+  "stockLots": [
+    {
+      "ingredient": "noodle",
+      "quantity": 14,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "tai",
+      "quantity": 8,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "chin",
+      "quantity": 6,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "scallion",
+      "quantity": 7,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "onion",
+      "quantity": 7,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "herbs",
+      "quantity": 7,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "coca",
+      "quantity": 1,
+      "expiresOn": 31
+    },
+    {
+      "ingredient": "redbull",
+      "quantity": 1,
+      "expiresOn": 31
+    }
+  ],
+  "hotBroth": 14,
+  "brothBatch": null,
+  "orders": [
+    {
+      "drink": null,
+      "id": "day-1-order-1",
+      "name": "Cô Hạnh",
+      "avatar": 0,
+      "recipeId": "tai",
+      "noodleUnits": 2,
+      "noOnion": false,
+      "chili": false,
+      "createdAt": 0,
+      "patience": 120,
+      "status": "served",
+      "repairs": 0,
+      "quotedPrice": 32000
+    },
+    {
+      "drink": "sting",
+      "id": "day-1-order-2",
+      "name": "Anh Minh",
+      "avatar": 1,
+      "recipeId": "chin",
+      "noodleUnits": 2,
+      "noOnion": false,
+      "chili": false,
+      "createdAt": 27,
+      "patience": 95,
+      "status": "served",
+      "repairs": 0,
+      "quotedPrice": 42000
+    }
+  ],
+  "bowls": [
+    {
+      "id": 0,
+      "ingredients": {
+        "noodle": 0,
+        "tai": 0,
+        "chin": 0,
+        "broth": 0,
+        "scallion": 0,
+        "onion": 0,
+        "herbs": 0,
+        "chili": 0,
+        "lime": 0,
+        "sauce": 0,
+        "sting": 0,
+        "coca": 0,
+        "redbull": 0
+      },
+      "cookState": "empty",
+      "cookSeconds": 0,
+      "cookScore": 0,
+      "cost": 0
+    }
+  ],
+  "bowlReady": false,
+  "selectedOrderId": null,
+  "selectedBowl": 0,
+  "elapsed": 31,
+  "closingElapsed": 0,
+  "spawned": 2,
+  "servedTotal": 2,
+  "reputation": 5,
+  "upgrades": {
+    "menu": false,
+    "basket": false,
+    "pot": false,
+    "stove": false,
+    "tea": false
+  },
+  "paused": false,
+  "recoveryUsed": false,
+  "ledger": {
+    "openingCash": 200000,
+    "openingStock": 0,
+    "purchases": 140000,
+    "revenue": 74000,
+    "drinkRevenue": 12000,
+    "drinkCogs": 6000,
+    "drinksSold": 1,
+    "tips": 4000,
+    "cogs": 33000,
+    "waste": 0,
+    "opex": 0,
+    "upgrades": 0,
+    "support": 0,
+    "served": 2,
+    "failed": 0,
+    "scoreTotal": 200,
+    "closingCash": null,
+    "closingStock": null
+  },
+  "lastResult": {
+    "orderId": "day-1-order-2",
+    "status": "served",
+    "score": 100,
+    "payment": 42000,
+    "tip": 2000,
+    "issues": [],
+    "message": "Anh Minh: “Phở ngon quá, cảm ơn nhé!”"
+  },
+  "notice": "Đã giao món 100/100 · 42.000đ + tip 2.000đ."
+}

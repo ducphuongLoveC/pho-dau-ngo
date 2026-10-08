@@ -1,0 +1,126 @@
+{
+  "version": 4,
+  "day": 1,
+  "phase": "open",
+  "cash": 78000,
+  "stock": {
+    "noodle": 16,
+    "tai": 10,
+    "chin": 8,
+    "broth": 0,
+    "scallion": 9,
+    "onion": 9,
+    "herbs": 9,
+    "chili": 0,
+    "lime": 0,
+    "sauce": 0
+  },
+  "stockLots": [
+    {
+      "ingredient": "noodle",
+      "quantity": 16,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "tai",
+      "quantity": 10,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "chin",
+      "quantity": 8,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "scallion",
+      "quantity": 9,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "onion",
+      "quantity": 9,
+      "expiresOn": 2
+    },
+    {
+      "ingredient": "herbs",
+      "quantity": 9,
+      "expiresOn": 2
+    }
+  ],
+  "hotBroth": 18,
+  "brothBatch": null,
+  "orders": [
+    {
+      "id": "day-1-order-1",
+      "name": "Cô Hạnh",
+      "avatar": 0,
+      "recipeId": "tai",
+      "noodleUnits": 2,
+      "noOnion": false,
+      "chili": false,
+      "createdAt": 0,
+      "patience": 120,
+      "status": "waiting",
+      "repairs": 0,
+      "quotedPrice": 32000
+    }
+  ],
+  "bowls": [
+    {
+      "id": 0,
+      "ingredients": {
+        "noodle": 2,
+        "tai": 0,
+        "chin": 0,
+        "broth": 0,
+        "scallion": 0,
+        "onion": 0,
+        "herbs": 0,
+        "chili": 0,
+        "lime": 0,
+        "sauce": 0
+      },
+      "cookState": "cooking",
+      "cookSeconds": 1,
+      "cookScore": 0,
+      "cost": 3000
+    }
+  ],
+  "bowlReady": true,
+  "selectedOrderId": "day-1-order-1",
+  "selectedBowl": 0,
+  "elapsed": 1,
+  "closingElapsed": 0,
+  "spawned": 1,
+  "servedTotal": 0,
+  "reputation": 5,
+  "upgrades": {
+    "menu": false,
+    "basket": false,
+    "pot": false,
+    "stove": false,
+    "tea": false
+  },
+  "paused": false,
+  "recoveryUsed": false,
+  "ledger": {
+    "openingCash": 200000,
+    "openingStock": 0,
+    "purchases": 122000,
+    "revenue": 0,
+    "tips": 0,
+    "cogs": 0,
+    "waste": 0,
+    "opex": 0,
+    "upgrades": 0,
+    "support": 0,
+    "refunds": 0,
+    "served": 0,
+    "failed": 0,
+    "scoreTotal": 0,
+    "closingCash": null,
+    "closingStock": null
+  },
+  "lastResult": null,
+  "notice": "Đang trụng bánh. Nhấc giỏ khi đồng hồ nằm trong khoảng 3–5 giây."
+}
